@@ -1,0 +1,49 @@
+body{
+    margin : 0px;
+    padding: 0px;
+    background-image: url(img/background.gif);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.brick{
+   background-image: url(img/brick.png);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+
+}
+#score{
+    color: white;
+    border: 1px white solid ;
+    width: 200px;
+    text-align: center;
+    background-color: black;
+}
+div.coin{
+    background:url("img/coin.gif"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px;
+    width: 20px;
+    height: 20px;
+}
+div.pacman{
+    background:url("img/pacman.gif"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px; 
+    height: 20px;  
+    position: absolute;
+}
+
+
+div.row div{
+    margin-top : -4px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+/* el pacman deberia moverse por 21 px  */
+/* minuto/14.18 */
