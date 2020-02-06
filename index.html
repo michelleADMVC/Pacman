@@ -10,8 +10,16 @@
 <body>
     <div class="container">
         <div id="world"></div>
-        <div id ="pacman"class="pacman" style="top:0px ; left:0px;"></div>
-        <div id="score">0</div>    
+        <div id ="pacman"class="pacman" style="top:0px ; left:0px; transform: rotate(0deg);"></div>
+        <div id="ghost" class="ghost" style="top:0px ; left:0px; transform: rotate(0deg);"></div>
+        <div class="statsContainer">
+            <div id="score">0</div>
+            <div id="lifeContainer" class="lifeContainer">
+                <div id="life" class="life"></div>
+            </div>
+        </div>
+          
+
     </div>
         <script src="script.js"></script>
 </body>

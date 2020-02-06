@@ -13,12 +13,41 @@ div.brick{
     background-size: 20px;
 
 }
+div.life{
+   background-image: url(img/life.gif);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    display: block;
+    color: cornsilk;
+
+}
+.lifeContainer{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.statsContainer{
+    display: flex;
+    flex-direction: row;
+}
 #score{
     color: white;
     border: 1px white solid ;
     width: 200px;
     text-align: center;
     background-color: black;
+}
+div.cereza{
+    background:url("img/beer.gif"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
 }
 div.coin{
     background:url("img/coin.gif"); 
@@ -37,7 +66,15 @@ div.pacman{
     height: 20px;  
     position: absolute;
 }
-
+div.ghost{
+    background:url("img/ghost.gif");
+     background-size: 30px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px; 
+    height: 20px;  
+    position: absolute;
+}
 
 div.row div{
     margin-top : -4px;
